@@ -1,0 +1,30 @@
+.pinkBg{background:#0546bc!important;}
+.pinBgtop {
+    background-color:#0546bc!important;}
+    ul.dropdown a {
+    color:#0546bc !important;
+    text-decoration: none;
+    font-size: 17px !important;
+}
+.vc_btn3.vc_btn3-color-danger.vc_btn3-style-modern {
+    color: #ffffff;
+    border-color:#0546bc!important;
+    background-color:#0546bc!important;;
+}
+.sliderDesc h1{font-size:39px !important;}
+.vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-modern {
+    color: #ffffff;
+    border-color:#0546bc !important;
+    background-color:#0546bc !important;
+}
+a {
+    color:#0546bc;
+}
+.mainContent .contentIconBg{background-color: #00416f!important;
+    border-radius: 70px !important;}
+a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-danger:hover {
+    color: #000000;
+}
+a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-juicy-pink:hover {
+    color: black;
+}

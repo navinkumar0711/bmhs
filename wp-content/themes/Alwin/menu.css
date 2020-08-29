@@ -1,0 +1,102 @@
+.alignleft{
+	float:left;
+	padding:5px 10px 5px 0;
+}
+
+.alignright{
+	float:left;
+	padding:5px 10px 5px 10px;
+}
+
+figure {
+    margin:0px 18px 30px 9px;
+	float:left;
+}
+
+ul.dropdown {
+    float: left;
+    list-style: outside none none;
+}
+ul.dropdown li {
+    float: left;
+    position: relative;
+}
+ul.dropdown a {
+    color: #c12b38;
+    text-decoration: none;
+}
+ul.dropdown li:hover a {
+    color: #000000 !important;
+}
+ul.dropdown li ul a {
+    display: block;
+}
+ul.dropdown ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 10px 10px;
+    position: absolute;
+    width: 240px;
+    z-index: 100;
+}
+ul.dropdown ul.sub-menu1 {
+    width: 150px;
+}
+ul.dropdown ul.sub-menu3 {
+    width: 180px;
+}
+ul.dropdown li ul {
+    background:#0546bc!important;
+    top: 72px;
+}
+ul.dropdown li ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    margin: 0;
+    padding: 0;
+}
+ul.dropdown ul ul {
+    left: 100%;
+    top: 0;
+}
+ul.dropdown ul li {
+    float: none;
+}
+ul.dropdown ul, ul.dropdown li:hover ul ul, ul.dropdown ul li:hover ul ul {
+    display: none;
+}
+ul.dropdown li:hover ul, ul.dropdown ul li:hover ul, ul.dropdown ul li ul li:hover ul {
+    display: block;
+}
+ul.dropdown li ul li a:link, ul.dropdown li ul li a:visited {
+    color: #fff !important;
+    display: block;
+    margin: 0 !important;
+    padding: 13px 10px !important;
+	border-bottom:1px solid #FFF;
+    text-align: left;
+}
+ul.dropdown li ul li a:hover {
+    background:none;
+	border-bottom:1px solid #FFF;
+    color: #000000 !important;
+    display: block;
+    margin: 0 !important;
+    padding: 13px 10px !important;
+}
+ul.dropdown li ul li.current_page_item a:hover {
+    border-bottom:1px solid #FFF;
+    color: #000000 !important;
+    display: block;
+    margin: 0 !important;
+    padding: 13px 10px !important;
+}
+.dropdown > .menu-item-has-children > span {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.sub-menu > .menu-item-has-children > span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
